@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Absolute Shawarma</title>
+
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="stylesheet" href="stylesheet/master.css">
+  <link rel="stylesheet" href="stylesheet/navbar.css">
+  <link rel="stylesheet" href="stylesheet/header.css">
+  <link rel="stylesheet" href="stylesheet/responsive.css">
+  <link rel="stylesheet" href="stylesheet/footer.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/coral-pen" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!--  nav part start -->
+  <div class="conntainer-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top background-transparent" id="my-nav">
+      <div class="container">
+        <!-- book my cleb logo -->
+        <a class="navbar-brand" href="index.html"><img src="assets/logo/ABSOLUTE SHAWARMA LOGO.png" alt=""
+            width="52px"></a>
+
+        <!-- navbar toggle bar -->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="myspan">&#9776;</span>
+          <!-- <span class="navbar-toggler-icon" id="myspan"></span> -->
+        </button>
+        <!--sidebar-->
+
+
+        <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="index.html">
+              <h1>ABSOLUTE SHAWARMA</h1>
+            </a>
+
+
+
+            <!-- sidebar close button -->
+            <button type="button" class="btn-close border-0 shadow-none" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- sidebar body -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" id="active">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Aboout Us
+                </a>
+                <ul class="dropdown-menu shadow">
+                  <li><a class="dropdown-item" href="about_foundation.html">Foundation Sucess Story</a></li>
+                  <li><a class="dropdown-item" href="about_team.html">Meet Our Team</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Franchise
+                </a>
+                <ul class="dropdown-menu shadow">
+                  <li><a class="dropdown-item" href="unit_franchise.html">Unit Franchise</a></li>
+                  <li><a class="dropdown-item" href="Master-franchise">Master Franchise</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Coverages & Achivemnets
+                </a>
+                <ul class="dropdown-menu shadow">
+                  <li><a class="dropdown-item" href="articles.html">News Article</a></li>
+                  <li><a class="dropdown-item" href="awards.html">Awards</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="menu.html" class="nav-link" id="hover-border">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a href="gallery.html" class="nav-link" id="hover-border">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="store.html" class="nav-link" id="hover-border">Store Locator</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Contact Us
+                </a>
+                <ul class="dropdown-menu shadow">
+                  <li><a class="dropdown-item" href="enquiry.html">Enquiry</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="join.html">Join Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- nav part end --> >
+
+  <!-- #################################################### -->
+
+  <!-- header part start -->
+  <div id="carouselExampleCaptions" class="carousel slide header-carousel" data-bs-ride="carousel"
+    data-bs-interval="3000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/images/header/header one.jpg" alt="First slide">
+        <div class="carousel-caption"></div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="img-fluid d-block w-100" src="assets/images/header/header two.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid d-block w-100" src="assets/images/header/header three.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- header part end -->
+
+    <!-- #################################################### -->
+  <!-- welcome part -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12 welcome">
+        <center>
+          <h6>Welcome To</h6>
+          <span>Absolute Shawarma</span>
+        </center>
+        <p>Shawarma, the Middle Eastern delicacy, is a beloved favorite that wins hearts wherever it goes. At Absolute
+          Shawarma, we bring this delicious experience to you, no matter which part of India you are in. Our shawarmas
+          feature gently grilled juicy meats and fillings, perfectly complemented by the creaminess, flavor, and acidity
+          of Tahini, chili sauce, and garlic mayonnaise. These are paired with fresh, crunchy salad veggies, all wrapped
+          up in the warm, soft embrace of Lebanese bread.</p>
+        <p>It's not just a meal; it's an experience that makes your day better. As die-hard foodies know, a great meal makes a great day! At Absolute Shawarma, we offer not one, not two, but four delicious shawarma options: Chicken and Paneer. Each bite promises a treat for your taste buds</p>
+      </div>
+    </div>
+  </div>
+  <!-- welcome part -->
+    <!-- #################################################### -->
+
+  <!-- brand detail -->
+  <div class="container p-5">
+    <div class="row brand">
+      <div class="col-md-6 p-5">
+
+        <!-- accordion of brand paragraph details -->
+
+        <h1>The Brand</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Our Journey: From a Small Unit to a Culinary Powerhouse
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>In 2017,</strong> Absolute Shawarma has blossomed from a small unit in Bangalore into a culinary
+                powerhouse, today it has over 100 outlets spread across 30 dynamic cities throughout India. Visitors to
+                Absolute Shawarma's outlets are greeted with a diverse menu that goes far beyond the boundaries of
+                <code> Traditional shawarmas.</code>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">  
+              The Absolute Shawarma Difference: Relentless Pursuit of Perfection
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>What truly sets Absolute Shawarma apart, however, is their relentless pursuit of perfection in
+                  every dish.</strong> Each recipe undergoes a process of development and testing, ensuring that every
+                bite is an explosion of flavour and authentic and healthy. From sourcing the finest ingredients to
+                refining cooking techniques,
+                <code>No detail is overlooked in their quest to deliver culinary excellence.</code>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Join Us on a Journey of Flavor and Discovery
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Whether you're a shawarma enthusiast or an adventurous foodie looking to explore new tastes,
+                </strong> Absolute Shawarma invites you to join them on a journey of flavor and discovery. </p>
+                <p>Come and experience firsthand the passion, quality, and innovation that have made Absolute Shawarma
+                  the ultimate destination for <code>food lovers across India."</code>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion of brand paragraph details -->
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" src="assets/images/index page/welcome shawarma.png" alt="" width="333px">
+      </div>
+    </div>
+  </div>
+  <!-- brand detail -->
+  <!-- #################################################### -->
+
+   <!-- accordion image start-->
+   <div class="container image-animation">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-accordion">
+                <div class="tab">
+                    <img src="assets/images/food item/burger.jpg" alt="">
+                </div>
+                <div class="tab">
+                  <img src="assets//images/food item/mocktail.jpg" alt="">
+                </div>
+                <div class="tab">
+                  <img src="assets//images/food item/paneer shawarma.jpg" alt="">
+                </div>
+                <div class="tab">
+                  <img src="assets//images/food item/9469.jpg" alt="">
+                </div>
+                <div class="tab">
+                  <img src="assets//images/food item/pizza.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- accordion image end-->
+  <!-- #################################################### -->
+
+<!-- Fixed Background Start -->
+<div class="container-fluid fixed-background mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <!-- Add content here if needed -->
+    </div>
+  </div>
+</div>
+<!-- Fixed Background End -->
+
+  <!-- #################################################### -->
+
+  <!-- Join Our Franchise -->
+  <div class="container mb-5">
+    <div class="row mt-5 text-center">
+      <div class="col-md-6">
+        <div class="card-content">
+          <h1>Join Our Franchise Network</h1>
+          <p class="para">Are you passionate about food and looking for a lucrative business opportunity? Join the
+            Absolute Shawarma family and be part of a thriving network of entrepreneurs. Our franchise model offers
+            comprehensive support, including:</p>
+
+          <ol>
+            <li>
+              <h2>High ROI: Our efficient business model ensures a high return on investment and fast break-even times.
+              </h2>
+            </li>
+            <li>
+              <h2>Quality Assurance: We supply high-quality ingredients and standardized recipes to maintain the
+                consistency and flavor that Absolute Shawarma is known for.</h2>
+            </li>
+            <li>
+              <h2> Ongoing Development: Stay ahead of the competition with regular updates to our menu and innovations
+                in our offerings.</h2>
+            </li>
+            <li>
+              <h2> Community and Network: Be part of a supportive community of franchisees who share insights and best
+                practices.</h2>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <video class="img-fluid" autoplay loop muted plays-inline>
+          <source src="assets/video/WhatsApp Video 2024-06-03 at 13.34.19_779041eb.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+  <!-- Join Our Franchise -->
+    <!-- #################################################### -->
+    <!-- absolute shawarma frenchise start with animation -->
+    <div class="container frenchise">
+      <div class="row frenchise">
+          <div class="col-md-6">
+              <img class="img-fluid w-100 frenchise-image" src="assets/images/frenchise image.png" alt="Franchise opportunity image" width="122px">
+          </div>
+          <div class="col-md-6 mt-5">
+              <p class="desk-para text-light"><b>"Dreaming of owning your own food business?</b> <br> Join the <span> Absolute Shawarma</span> family! With comprehensive support and a proven business model, our franchise opportunities are designed to help you succeed. Be part of our growing network and spread the joy of delicious shawarma across India."
+              </p>
+          </div>
+      </div>
+  </div>
+  <!-- absolute shawarma menu detail end with animation-->
+
+    <!-- #################################################### -->
+  <!-- model view part -->
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col-md-12 mt-5">
+        <center>   <!-- Button trigger modal -->
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Become A Proud Franchise Partner
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-10" id="staticBackdropLabel">Absolute Shawarma</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                 <img src="assets/images/food item/shawarm.png" alt="" width="222px">
+                  <h2>Connect With Us</h2>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="my-btn"> <a href="tel:+91 9353852071"> Call</a></button>
+                  <button type="button" class="my-btn"><a href="https://wa.me/9353852071">Whatsapp</a></button>
+                </div>
+              </div>
+            </div>
+          </div></center>
+      </div>
+    </div>
+  </div>
+    <!-- #################################################### -->
+  <!-- fixed whatsapp -->
+  <div class="fixed-wahtsapp-btn">
+    <a href="https://wa.me/9353852071"> <img src="assets/logo/Whatsapp_logo-removebg-preview.png" alt="" class="fixed-whatsappp-btn" width="50px"> </a>
+  </div>
+  <!-- fixed whatsapp -->
+    <!-- ####################################################### -->
+   <!-- footer part start -->
+   <footer class="container-fluid text-dark py-4 mt-5" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img src="assets/logo/ABSOLUTE SHAWARMA LOGO.png" alt="Absolute Shawarma Logo" width="52px"> <br>
+          <h5>Absolute Shawarma</h5>
+          <p>The taste that makes your day.</p>
+        </div>
+        <div class="col-md-2 mb-4">
+          <h5>Company</h5>
+          <ul class="list-unstyled">
+            <li><a href="about.html" class="text-dark">About Us</a></li>
+            <li><a href="franchise.html" class="text-dark">Franchise</a></li>
+            <li><a href="contact.html" class="text-dark">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 mb-4">
+          <h5>Menu</h5>
+          <ul class="list-unstyled">
+            <li><a href="menu.html" class="text-dark">Our Menu</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Contact</h5>
+          <p><i class="fas fa-map-marker-alt"></i> 301/302, 3rd Floor, Saket Callipolis, Sarjapur – Marathahalli Rd, Doddakannelli, Bengaluru, Karnataka 560035</p>
+          <p><i class="fas fa-phone"></i> 9353852071</p>
+          <!-- <p><i class="fas fa-envelope"></i> contact@absoluteshawarma.com</p> -->
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2024 Absolute Shawarma. All rights reserved. Developed by <a href="gosparrow.in">gosparrow</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer part end -->
+    <!-- #################################################### -->
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- gsap cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- custom js -->
+  <script src="script.js"></script>
+</body>
+
+</html>
